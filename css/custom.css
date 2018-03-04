@@ -19,9 +19,6 @@ p{
   font-size: 1.5em;
 }
 
-.btn1{
-  background: rgba(255, 255, 255, 0.9);
-}
 
 .box{
   width: 100px;
@@ -40,4 +37,25 @@ h2{
 ul#menu li {
   display: inline;
 list-style-type: none;
+}
+
+.main-image{
+  width: 80%;
+}
+
+.brand{
+  background: rgba(255, 255, 255, 0.9);
+  border-color: #413838;
+}
+.lead1{
+  font-size: 3.35714286em;
+  line-height: 1.68421053em;
+}
+.btn1{
+  color:#000;
+background: rgba(255, 255, 255, 0.9);
+}
+.btn1:hover{
+  background: #232d2d;
+  color:#fff;
 }
