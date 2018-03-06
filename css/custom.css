@@ -1,14 +1,15 @@
 /*! Place your custom styles here */
 .title{
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px;
   border-radius: 25px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 140px;
+  margin-right: 140px;
 
 }
+
 h1 {
   font-weight: bolder;
 
@@ -50,8 +51,20 @@ list-style-type: none;
 .lead1{
   font-size: 1.35714286em;
   line-height: 1.68421053em;
+  padding-bottom: 30px;
+
 }
-.lead1 > img{
+.lead1 ul{
+  list-style: none;
+  margin: 20px auto;
+    text-align: center;
+
+}
+.lead1 li{
+  display: inline;
+
+}
+.lead1 img{
   margin-right: 20px;
 }
 .btn1{
@@ -85,3 +98,39 @@ background: rgba(255, 255, 255, 0.9);
      padding-left: 15px;
   }
 }
+
+
+@media all and (max-width: 767px) {
+
+  .title{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px;
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+  }
+
+
+  #menu-outer{
+    height:  84px;
+    background: #000;
+  }
+  .table{
+    display: table;
+    margin: 0 auto}
+
+  }
+
+  ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+  }
+
+  ul#horizontal-list li{
+    display: inline;
+    margin:5px;
+  }

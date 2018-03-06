@@ -90,7 +90,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   color: #252525;
   font-weight: 300;
   font-variant-ligatures: common-ligatures;
@@ -3191,6 +3191,7 @@ form[action*='list-manage.com'] .small-meta {
 }
 .bar.bar--sm {
   padding: 0.92857143em 0;
+  background: rgba(0,0,0,0.7);
 }
 .bar.bar--lg {
   padding: 2.78571429em 0;
@@ -3457,7 +3458,7 @@ footer.space--md {
 }
 section.space--lg,
 footer.space--lg {
-  padding-top: 14.85714286em;
+  padding-top: 6.85714286em;
   padding-bottom: 14.85714286em;
 }
 section.space--xlg,
@@ -3490,7 +3491,7 @@ footer.space-bottom--sm {
   section.space--md,
   footer.space--md,
   section.section--even.space--md {
-    padding: 5.57142857em 0;
+    padding: 1.57142857em 0;
   }
   section.space--xlg,
   footer.space--xlg,
