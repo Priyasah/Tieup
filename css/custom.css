@@ -60,6 +60,9 @@ list-style-type: none;
     text-align: center;
 
 }
+.lead1 ul:last-child{
+  margin-left: 250px;
+}
 .lead1 li{
   display: inline;
 

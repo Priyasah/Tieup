@@ -987,7 +987,7 @@ div[data-overlay] ul {
   border-color: #465773;
 }
 .btn--primary-2 .btn__text,
-.btn--primary-2:visited .btn__text {
+.btn--primary-2:visited .btn__text2 {
   color: #000;
 }
 .btn--primary-2:hover {
@@ -1054,7 +1054,7 @@ div[data-overlay] ul {
 }
 /**! 08. Lists **/
 ul:last-child {
-  margin: 0;
+  margin: 0px;
 }
 .list-inline li {
   padding: 0 1em;
@@ -3483,7 +3483,7 @@ footer.space-bottom--sm {
   section,
   footer,
   section.section--even {
-    padding: 5.57142857em 0;
+    padding: 0.57142857em 0;
   }
   section.space--lg,
   footer.space--lg,
