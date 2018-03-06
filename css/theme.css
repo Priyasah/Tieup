@@ -90,7 +90,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   color: #252525;
   font-weight: 300;
   font-variant-ligatures: common-ligatures;
@@ -1107,7 +1107,7 @@ ul:last-child {
   transition: 0.3s ease;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
-  color: #252525;
+  color: #ffffff;
 }
 .menu-horizontal > li > a:hover,
 .menu-horizontal > li > span:hover,
@@ -3270,7 +3270,7 @@ form[action*='list-manage.com'] .small-meta {
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
   }
   .bar.pos-fixed:not([class*='bg-']) {
-    background: #ffffff;
+    background: rgba(0,0,0,0.7);
   }
   .bar.pos-fixed:not([class*='bg-']) .logo-dark {
     display: inline-block;

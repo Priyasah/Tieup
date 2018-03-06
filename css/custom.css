@@ -48,8 +48,11 @@ list-style-type: none;
   border-color: #413838;
 }
 .lead1{
-  font-size: 3.35714286em;
+  font-size: 1.35714286em;
   line-height: 1.68421053em;
+}
+.lead1 > img{
+  margin-right: 20px;
 }
 .btn1{
   color:#000;
@@ -58,4 +61,27 @@ background: rgba(255, 255, 255, 0.9);
 .btn1:hover{
   background: #232d2d;
   color:#fff;
+}
+
+.useimage1{
+  padding-bottom:30px;
+   padding-right:50px;
+}
+
+.useimage2{
+  padding-bottom:30px;
+   padding-left:50px;
+}
+
+@media all and (max-width: 767px) {
+
+  .useimage1{
+    padding-bottom:20px;
+     padding-right:5px;;
+  }
+
+  .useimage2{
+    padding-bottom:0px;
+     padding-left: 15px;
+  }
 }
